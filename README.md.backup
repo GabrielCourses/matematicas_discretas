@@ -1,5 +1,30 @@
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/image/header.png)
 
+# Introducción
+
+Las matemáticas están basadas en **axiomas** y leyes de los números que no necesitan comprobación, de lo anterior se desarrolla una teoría libre de contradicciones.
+
+Por axiomas vamos a entender a conceptos básicos que no pueden ser explicados con palabras, pero que todo mundo entiende. Es el caso de:
+
+- Número
+- Punto 
+- Recta
+- Plano
+- Conjunto
+
+### Operador suma y producto.
+
+El operador su suma y producto son binarios, es decir, solamente se pueden ejecutar con un par de elementos y cumplen las siguientes leyes de los números.
+
+```
+1. a + (b + c) = (a + b) + c. Asociativa
+2. a + b = b + a. Conmutativa
+3. a + 0 = 0 + a = a. Neutro aditivo
+4. a + (-a) = (-a) + a. Inver
+```
+
+
+
 # Matemáticas Discretas
 
 <p><em>From: <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica_discreta">Mat Disc Wikipedia</a></em></p>
