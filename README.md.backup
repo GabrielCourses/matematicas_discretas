@@ -17,11 +17,43 @@ Por axiomas vamos a entender a conceptos básicos que no pueden ser explicados c
 El operador su suma y producto son binarios, es decir, solamente se pueden ejecutar con un par de elementos y cumplen las siguientes leyes de los números.
 
 ```
-1. a + (b + c) = (a + b) + c. Asociativa
-2. a + b = b + a. Conmutativa
-3. a + 0 = 0 + a = a. Neutro aditivo
-4. a + (-a) = (-a) + a. Inver
+1. a + b = b + a. Conmutativa para la suma.
+2. a + (b + c) = (a + b) + c. Asociativa para la suma.
+3. a + 0 = 0 + a = a. Neutro aditivo.
+4. a + (-a) = (-a) + a. Inverso aditivo.
+5. a*b = b*a. Conmutativa para el producto.
+6. a*(b*c) = (a*b)*c. Asociativa para el producto.
+7. 1*a = a*1 = a. Neutro multiplicativo.
+8. a * (1/a) = (1/a) * a = 1. Inverso multiplicativo.
+9. a * (b + c) = (a*b) + (a*c). Distributiva
 ```
+
+**Ejemplos:**
+
+```
+- Conmutativa para la suma
+
+	45 = 33 + 12 = 12 + 35 = 45
+	28 = 7 + 21 = 21 + 7 = 28
+
+- Asociativa para la suma
+
+	12 = 3 + (5 + 4) = 3 + (9) = (3 + 5) + 4 = (8) + 4 = 12
+	21 = 11 + (8 + 2) = 11 + (10) = (11 + 8) + 2 = (19) + 2 = 21
+
+- Neutro aditivo
+
+	17 = 17 + 0 = 0 + 17 = 17
+	75 = 75 + 0 = 0 + 75 = 75
+	
+- Inverso aditivo
+
+	0 = 34 + (-34) = (-34) + 34 = 0
+	0 = 25 + (-25) = (-25) + 25 = 0
+
+```
+
+
 
 
 
@@ -32,7 +64,7 @@ El operador su suma y producto son binarios, es decir, solamente se pueden ejecu
 
 Unidad de Aprendizaje: Empleo de sistemas numéricos y métodos de conteo.
 
-Propósito de la unidad: Empleará distintos sistemas numéricos en la representación de cantidades realizando operaciones aritméticas básicas y conversiones de bases, así como el empleo de métodos de conteo a fin de detectar la forma en que la computadora lleva a cabo operaciones aritméticas lógica y resulve problemas de computación.
+Propósito de la unidad: Empleará distintos sistemas numéricos en la representación de cantidades realizando operaciones aritméticas básicas y conversiones de bases, así como el empleo de métodos de conteo a fin de detectar la forma en que la computadora lleva a cabo operaciones aritméticas lógica y resuelve problemas de computación.
 
 Resultado del aprendizaje: Representa cantidades en cualquier sistema númerico mediante operaciones aritméticas y conversiones entre distintas bases numéricas.
 
