@@ -127,6 +127,6 @@ La definición de número irracional $\mathbb{I}$, son aquellos cuales tienen un
 
 Finalmente para el conjunto de los números reales tenemos que:
 
-$$\mathbb{R} = \mathbb{I}~\cup~\mathbb{Q}$$
+$$\mathbb{R} = \mathbb{I}\cup\mathbb{Q}$$
 
 Y solo comentaremos que su representación gráfica es la recta real.

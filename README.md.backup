@@ -125,8 +125,8 @@ Si el conjunto de los números enteros negativos fue complicado para el hombre, 
 
 La definición de número irracional $\mathbb{I}$, son aquellos cuales tienen una cola de decimales no periódica infinita. Por mencionar algunos de estos números tenemos tenemos al número $\pi, \sqrt{2}, \sqrt{3}, \sqrt{5},e$.
 
-Finalmente el para el conjunto de los números reales tenemos que:
+Finalmente para el conjunto de los números reales tenemos que:
 
-$$\mathbb{R} = \mathbb{I}~\cup~^\mathbb{Q}$$
+$$\mathbb{R} = \mathbb{I}~\cup~\mathbb{Q}$$
 
 Y solo comentaremos que su representación gráfica es la recta real.
