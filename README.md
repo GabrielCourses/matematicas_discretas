@@ -16,18 +16,18 @@ Por conceptos primitivos vamos a entender a ideas básicos que no pueden ser exp
 
 **Operador suma y producto**
 
-El operador suma y producto son binarios, es decir, solamente se pueden ejecutar con un par de elementos y cumplen las siguientes leyes de los números.
+El operador suma y producto son binarios, es decir, solamente se puede realizar con un par de elementos que cumplen las siguientes leyes de los números.
 
 ```
 1. a + b = b + a. Conmutativa para la suma.
 2. a + (b + c) = (a + b) + c. Asociativa para la suma.
 3. a + 0 = 0 + a = a. Neutro aditivo.
-4. a + (-a) = (-a) + a. Inverso aditivo.
+4. 0 = a + (-a) = (-a) + a = 0. Inverso aditivo.
 5. a*b = b*a. Conmutativa para el producto.
 6. a*(b*c) = (a*b)*c. Asociativa para el producto.
-7. 1*a = a*1 = a. Neutro multiplicativo.
-8. a * (1/a) = (1/a) * a = 1. Inverso multiplicativo.
-9. a * (b + c) = (a*b) + (a*c). Distributiva
+7. a = 1*a = a*1 = a. Neutro multiplicativo.
+8. 1 = a * (1/a) = (1/a) * a = 1. Inverso multiplicativo.
+9. a * (b + c) = (a*b) + (a*c). Distributiva, esta propiedad es la combinación del operador suma con el operador producto.
 ```
 
 **Ejemplos:**
@@ -82,4 +82,31 @@ El operador suma y producto son binarios, es decir, solamente se pueden ejecutar
 # Matemáticas Discretas
 
 <p><em>From: <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica_discreta">Matemáticas Discretas Wikipedia</a></em></p>
+
+Las **matemáticas discreta** es un área de la matemática encargada del estudio de los conjuntos discretos: finitos o infinitos numerables.
+
+Las matemáticas discretas abordan varios temas entre ellos: informática teórica, teoría de la información, lógica, teoría de conjunto, combinatorio, teoría de grafos, teoría de distribuciones de probabilidades discretas, teoría de números. Pero antes de empezar revisemos cuales son los principales conjuntos que son numerables, y un ejemplo sencillo de como contarlos.
+
+### El conjunto de los números naturales.
+
+$$\mathbb{N} = {1, 2, 3, 4, 5, 6, ...}$$
+
+Este conjunto es el más natural para el humano, y por ello su nombre. En la historia del hombre es la manera en que aprendió a contar. La manera de enumerarlos no necesita explicación.
+
+### El anillo de los números enteros.
+
+$$\mathbb{Z} = {..., -3, -2, -1, 0, 1, 2, 3, ...}$$
+
+Este conjunto en la historia del hombre causo conflicto, ya que por algunas sociedades no eran comprensibles los números negativos al grado de tener que ignorarlos. Actualmente no nos causan ninguna confusión y claramente podemos observar que se componen del conjunto de números $\mathbb{N}$ conjuntamente de sus respectivos inversos aditivos (Propiedad 4 de la ley de los números).
+
+El nombre de anillo proviene de la manera de enumerarlos, los en listamos desde $-\infty$ hasta $\infty$. Ahora comenzamos el conteo en 0, seguido de 1, seguido de -1, y así sucesivamente. El resultado es un conjunto infinito numerable.
+
+### El conjutno de los números racionales.
+
+Este conjunto tiene la sigiente descripción matemática.
+
+$$\mathbb{Q} = \{\frac{p}{q}, q \neq 0| p, q \in \mathbb{Z}\}$$
+
+
+
 
