@@ -95,7 +95,7 @@ Este conjunto es el más natural para el humano, y por ello su nombre. En la his
 
 ### El anillo de los números enteros.
 
-$$\mathbb{N} = \left\lbrace{1,~2,~3,~4,~5,~6, ...}\right\rbrace$$
+$$\mathbb{Z} = \left\lbrace{...,-3,-2,-1,0,1,2,3, ...}\right\rbrace$$
 
 Este conjunto en la historia del hombre causo conflicto, ya que por algunas sociedades no eran comprensibles los números negativos al grado de tener que ignorarlos. Actualmente no nos causan ninguna confusión y claramente podemos observar que se componen del conjunto de números $\mathbb{N}$ conjuntamente de sus respectivos inversos aditivos (Propiedad 4 de la ley de los números).
 
