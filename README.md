@@ -2,9 +2,9 @@
 
 # Introducción
 
-Las matemáticas están basadas en **axiomas** y leyes de los números que no necesitan comprobación, de lo anterior se desarrolla una teoría libre de contradicciones.
+Las matemáticas están basadas en ideas primitivas tales que no existen palabras para definirlas, pero que todo mundo entiende. Y leyes de los números que no necesitan comprobación, de lo anterior se desarrolla una teoría libre de contradicciones.
 
-Por axiomas vamos a entender a conceptos básicos que no pueden ser explicados con palabras, pero que todo mundo entiende. Es el caso de:
+Por conceptos primitivos vamos a entender a ideas básicos que no pueden ser explicados con palabras, pero la abstracción humana entiende. Es el caso de:
 
 - Número
 - Punto 
@@ -12,9 +12,11 @@ Por axiomas vamos a entender a conceptos básicos que no pueden ser explicados c
 - Plano
 - Conjunto
 
-### Operador suma y producto.
+## Leyes de los números
 
-El operador su suma y producto son binarios, es decir, solamente se pueden ejecutar con un par de elementos y cumplen las siguientes leyes de los números.
+**Operador suma y producto**
+
+El operador suma y producto son binarios, es decir, solamente se pueden ejecutar con un par de elementos y cumplen las siguientes leyes de los números.
 
 ```
 1. a + b = b + a. Conmutativa para la suma.
@@ -51,33 +53,33 @@ El operador su suma y producto son binarios, es decir, solamente se pueden ejecu
 	0 = 34 + (-34) = (-34) + 34 = 0
 	0 = 25 + (-25) = (-25) + 25 = 0
 
+- Conmutativa para el producto
+	
+	30 = 5 * 6 = 6 * 5 = 30
+	21 = 7 * 3 = 3 * 7 = 21
+
+- Asociativa para el producto
+
+	60 = (5 * 4) * 3 = (20) * 3 = 5 * (4 * 3) = 5 * (12) = 60
+	70 = (2 * 5) * 7 = (10) * 7 = 2 * (5 * 7) = 2 * (35) = 70
+	
+- Neutro multiplicativo
+
+	13 = 13 * 1 = 1 * 13 = 13
+	23 = 23 * 1 = 1 * 23 = 23
+	
+- Inverso multiplicativo
+
+	1 = 8 * (1/8) = (1/8) * 8 = 1
+	1 = 19 * (1/19) = (1/19) * 19 = 1
+	
+- Ley Distributiva
+
+	6 * (5 + 3) = (6 * 5) + (6 * 3) = (30) + (18) = 48
+	7 * (4 + 5) = (7 * 4) + (7 * 5) = (28) + (35) = 63 
 ```
-
-
-
-
 
 # Matemáticas Discretas
 
-<p><em>From: <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica_discreta">Mat Disc Wikipedia</a></em></p>
+<p><em>From: <a href="https://es.wikipedia.org/wiki/Matem%C3%A1tica_discreta">Matemáticas Discretas Wikipedia</a></em></p>
 
-
-Unidad de Aprendizaje: Empleo de sistemas numéricos y métodos de conteo.
-
-Propósito de la unidad: Empleará distintos sistemas numéricos en la representación de cantidades realizando operaciones aritméticas básicas y conversiones de bases, así como el empleo de métodos de conteo a fin de detectar la forma en que la computadora lleva a cabo operaciones aritméticas lógica y resuelve problemas de computación.
-
-Resultado del aprendizaje: Representa cantidades en cualquier sistema númerico mediante operaciones aritméticas y conversiones entre distintas bases numéricas.
-
-## Código binario
-
-El **código binario** es el sistema de codificación usado para la representación de textos, o procesadores de instrucción de computadoras
-
-## Sistema binario
-
-El **sistema binario,** también llamado **sistema diádico** en ciencias de la computación, es un sistema de numeración en el que los números son representados utilizando únicamente dos cifras: 0 y 1. Es uno de los sistemas que se utilizan en las computadoras, debido a que estas trabajan internamente con dos niveles de voltaje, por lo cual su sistema de numeración natural es el sistema binario.
-
-### bit
-
-**Bit** es el acrónimo de **bi**nary digi**t** (es decir, 'digito binario', en español denominado como **bit,** y en menor medida como **bitio**). Un _bit_ es un dígito del sistema de numeración binario. La capacidad de almacenamiento de una memoria digital también se mide en _bis,_ ya que esta palabra tiene varias acepciones.
-
-Lo usual es que un registro digital u otras memorias digitales vinculadas con la computación y/o con las telecomunicaciones, tengan una capacidad de representación de informaciones de por 8 bits, 16 bits, 32 bits, 64 bits, etc;
