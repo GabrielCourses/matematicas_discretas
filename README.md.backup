@@ -91,15 +91,17 @@ Las matemáticas discretas abordan varios temas entre ellos: informática teóri
 
 $$\mathbb{N} = \left\lbrace{1,~2,~3,~4,~5,~6, ...}\right\rbrace$$
 
-Este conjunto es el más natural para el humano, y por ello su nombre. En la historia del hombre es la manera en que aprendió a contar. La manera de enumerarlos no necesita explicación.
+Este conjunto es el más natural para el humano, y por ello su nombre. En la historia del hombre es la manera en que aprendió a contar. La manera de enumerarlos no necesita explicación. Por lo tanto el conjunto de los número naturales es un conjunto infinito numerable.
 
 ### El anillo de los números enteros.
 
-$$\mathbb{Z} = \left\lbrace{...,-1,-2,-3,~4,~5,~6, ...}\right\rbrace$$
+$$\mathbb{Z} = \left\lbrace{...,-3,-2,-1,0,1,2,3, ...}\right\rbrace$$
 
 Este conjunto en la historia del hombre causo conflicto, ya que por algunas sociedades no eran comprensibles los números negativos al grado de tener que ignorarlos. Actualmente no nos causan ninguna confusión y claramente podemos observar que se componen del conjunto de números $\mathbb{N}$ conjuntamente de sus respectivos inversos aditivos (Propiedad 4 de la ley de los números).
 
 El nombre de anillo proviene de la manera de enumerarlos, los en listamos desde -$\infty$ hasta $\infty$. Ahora comenzamos el conteo en 0, seguido de 1, seguido de -1, y así sucesivamente. El resultado es un conjunto infinito numerable.
+
+![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/image/integer.png)
 
 ### El conjutno de los números racionales.
 
@@ -107,6 +109,24 @@ Este conjunto tiene la sigiente descripción matemática.
 
 $$\mathbb{Q} = \left\lbrace{\frac{p}{q}, q \neq 0~|~p, q \in \mathbb{Z}}\right\rbrace$$
 
+Lo que dicho con palabras es, el conjunto de los números racionales, son aquellos que tienen la forma p entre q, donde q no puede ser 0, tal que p y q le perteneces a los enteros.
 
+**Nota:** En mi experiencia personal, se que este conjunto es uno de los culpables por que a mucha gente no le gustan las matemáticas ya que en educación básica o primaria se nos enseña a operar con ellos y es el punto critico donde mucha gente deja de entender que esta pasando. Aunque te puedo comentar que si haces un pequeño esfuerzo por entender la presente definición muchas cosas te serán más fáciles.
 
+Por otro lado, la manera de saber que este conjunto de número es numerable, es mediante el siguiente arreglo, donde por medio de ordenarlos por su numerador y denominador podemos estar seguros que estamos tomando a todos los números racionales y siguiendo el dibujo empezamos a contarlos. Por lo tanto el conjunto de los números racionales es un conjunto infinito numerable.
 
+![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/image/racional.png)
+
+Por último veamos un par de conjuntos los cuales no son un conjunto numerable.
+
+## El conjunto de los números irracionales.
+
+Si el conjunto de los números enteros negativos fue complicado para el hombre, el conjunto de los números irracionales fue aún más. El primer caso de estudio fue el del triángulo rectángulo cuyos catetos son igual a uno y su hipotenusa es igual a $\sqrt{2}$.
+
+La definición de número irracional $\mathbb{I}$, son aquellos cuales tienen una cola de decimales no periódica infinita. Por mencionar algunos de estos números tenemos tenemos al número $\pi, \sqrt{2}, \sqrt{3}, \sqrt{5}, {\exp}$.
+
+Finalmente el para el conjunto de los números reales tenemos que:
+
+$$\mathbb{R} = \mathbb{I} \cup \mathbb{Q}$$
+
+Y solo comentaremos que su representación gráfica es la recta real.
