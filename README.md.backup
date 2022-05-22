@@ -123,10 +123,10 @@ Por último veamos un par de conjuntos los cuales no son un conjunto numerable.
 
 Si el conjunto de los números enteros negativos fue complicado para el hombre, el conjunto de los números irracionales fue aún más. El primer caso de estudio fue el del triángulo rectángulo cuyos catetos son igual a uno y su hipotenusa es igual a $\sqrt{2}$.
 
-La definición de número irracional $\mathbb{I}$, son aquellos cuales tienen una cola de decimales no periódica infinita. Por mencionar algunos de estos números tenemos tenemos al número $\pi, \sqrt{2}, \sqrt{3}, \sqrt{5}, {\exp}$.
+La definición de número irracional $\mathbb{I}$, son aquellos cuales tienen una cola de decimales no periódica infinita. Por mencionar algunos de estos números tenemos tenemos al número $\pi, \sqrt{2}, \sqrt{3}, \sqrt{5}, {\e}$.
 
 Finalmente el para el conjunto de los números reales tenemos que:
 
-$$\mathbb{R} = \mathbb{I} \cup \mathbb{Q}$$
+$$\mathbb{R} = \mathbb{I}~\cup~^\mathbb{Q}$$
 
 Y solo comentaremos que su representación gráfica es la recta real.
