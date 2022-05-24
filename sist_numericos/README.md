@@ -78,7 +78,7 @@ Podemos ocupar el algoritmo de la división para comprobar nuestros resultados, 
 
 **Algoritmo de la división**
 
-$$b=pq+r,p,q\in\mathbb{Z},0\leqslant{r}<p$$
+$$b=pq+r,p,q\in\mathbb{Z},0<=r<p$$
 
 
 $$x = \hat{\beta}$$
