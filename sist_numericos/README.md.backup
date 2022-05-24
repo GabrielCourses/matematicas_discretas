@@ -81,7 +81,7 @@ Podemos ocupar el algoritmo de la división para comprobar nuestros resultados, 
 $$b=pq+r,\hspace{1cm}donde\hspace{1cm}p,q\in\mathbb{Z},\hspace{1cm}0\leqslant{r}<p$$
 
 
-$$x = \hat{}$$
+$$x = \hat{\beta}$$
 
 **Binario a decimal**
 
