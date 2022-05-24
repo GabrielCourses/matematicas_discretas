@@ -70,10 +70,20 @@ Veamos unos ejemplo del uso de la división entera, es decir, la consola nos dev
 
 Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la consola regresa el residuo o módulo. Hacemos los mismos ejemplo para comparar resultados.
 
+<center>
+<img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
+</center>
+
+Podemos ocupar el algoritmo de la división para comprobar nuestros resultados, es decir que:
+
+**Algoritmo de la división**
+
+$$b = pq + r, donde p,q /in /mathbb{Z}~y~0\leqslant{r}<p$$
+
 
 **Binario a decimal**
 
-1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, $2^0$).
+1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, $2^{0}$).
 2. Después de realizar cada una de las multiplicaciones, súmelas todas y el número resultante será el equivalente al sistema decimal.
 
 **Ejemplo**

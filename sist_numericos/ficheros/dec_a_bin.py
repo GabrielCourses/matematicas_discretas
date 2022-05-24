@@ -7,3 +7,11 @@
 15 // 2
 
 # Ahora veamos ejemplos del operador % (modulo).
+10 % 4
+6 % 3
+15 % 2
+
+# Usamos el algoritmo de la división para probar nuestros resultados
+10 == 4 * (10 // 4) + (10 % 4)
+6 == 3 * (6 // 3) + (6 % 3)
+15 == 2 * (15 // 2) (15 % 2)
