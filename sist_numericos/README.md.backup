@@ -74,14 +74,15 @@ Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la conso
 <img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
 </center>
 
-Podemos ocupar el algoritmo de la división para comprobar nuestros resultados, es decir que:
+Podemos ocupar el algoritmo de la división para comprobar nuestros resultados. Dado cualquier número b $\in{Z}$ podemos encontrar un par de números $p,q\in{Z}$ que sumado otro número que está entre 0 y p es igual a **b.**
 
 **Algoritmo de la división**
 
-$$b=pq+r,p,q\in\mathbb{Z},0\<p$$
+![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/division.png)
 
+Y tomando los ejemplos anteriores, comprobamos que:
 
-$$x = \hat{\beta}$$
+![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/dem.png)
 
 **Binario a decimal**
 
