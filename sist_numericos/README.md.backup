@@ -64,8 +64,9 @@ En Pyton3 el símbolo de la división entera es la barra doble //. Si aplicas un
 
 Veamos unos ejemplo del uso de la división entera, es decir, la consola nos devolvera solamente el cociente entero.
 
-
-<img align='center' src="https://media.giphy.com/media/XNQ19v5A5RJCRwM2yN/giphy.gif">
+<center>
+<img src="https://media.giphy.com/media/XNQ19v5A5RJCRwM2yN/giphy.gif">
+</center>
 
 Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la consola regresa el residuo o módulo. Hacemos los mismos ejemplo para comparar resultados.
 
