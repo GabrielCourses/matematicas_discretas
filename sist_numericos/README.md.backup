@@ -54,22 +54,25 @@ Vamos a recordar como hacemos esta operación en papel.
 
 ### Paso 1. Hacer la división entera del número decimal entre 2.
 
-Este paso tendremos que repetirlo en bucle para obtener el número deseado.
+Este paso tendremos que repetirlo en **bucle** para obtener el número deseado.
 
-Se trata de dividir el número original entre 2. Además, necesitamos dos número distintos resultado de esta división: el **cociente** y el **módulo** (también llamado resto o residuo).
+Se trata de dividir el número original entre 2. Además, necesitamos dos número distintos, resultado de esta división: el **cociente** y el **módulo** (también llamado resto o residuo).
 
-Es por esto que necesitamos utilizar la división entera, no sirve la división estándar.
+Es por esto que necesitamos utilizar la división entera, no sirve la división típica.
 
 En Pyton3 el símbolo de la división entera es la barra doble //. Si aplicas una sola barra / obtendrás el resultado de la división real y en este caso no es la que ocupamos, ya que necesitamos obtener de manera separada el cociente y el módulo.
 
 Veamos unos ejemplo del uso de la división entera, es decir, la consola nos devolvera solamente el cociente entero.
 
-![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/entero.png)
+<img align='center' src="https://media1.giphy.com/media/XNQ19v5A5RJCRwM2yN/200.webp" width="230">
+
+Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la consola regresa el residuo o módulo. Hacemos los mismos ejemplo para comparar resultados.
+
 
 
 **Binario a decimal**
 
-1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, 2^0).
+1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, $2^0$).
 2. Después de realizar cada una de las multiplicaciones, súmelas todas y el número resultante será el equivalente al sistema decimal.
 
 **Ejemplo**
