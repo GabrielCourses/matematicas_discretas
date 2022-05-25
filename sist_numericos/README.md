@@ -84,6 +84,14 @@ Y tomando los ejemplos anteriores, comprobamos que:
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/dem.png)
 
+### Paso 2. Guardar el módulo de la división entre 2
+
+En el segundo paso tienes que **guardar el módulo obtenido en la división previa**. Como este es un proceso iterativo donde vamos a guardar diversos módulos lo mejor es **crear una lista e ir almacenándolos en ella.**
+
+Vamos a crear una lista vacía llamada _modulos_ y añadir al final el módulo _m_ recién calculado con la función _append_ de la siguiente manera: modulos.append(m)
+
+Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos listas y bucles en Python.</a>
+
 **Binario a decimal**
 
 1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, $2^{0}$).
