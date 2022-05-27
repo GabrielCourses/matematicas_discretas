@@ -106,14 +106,15 @@ El código de la imagen anterior está guardado en la carpeta ficheros como scri
 Debes estar ubicado en el la misma carpeta donde se encuentra tu script
 
 ```
-$ python modulo.py
+$ python modulos.py
 ```
 
 Desde IPython
 
 ```
-In [43]:
+In [43]: %run modulos.py
 ```
+
 
 ***
 ## Convertir de Sistema binario a decimal

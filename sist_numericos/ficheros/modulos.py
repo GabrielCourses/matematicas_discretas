@@ -1,7 +1,5 @@
 # Convertir un número en sistema decimal a binario
-
 num_decimal = 29    # número que vamos a convertir
-iumbers = list('8343847')
 
 modulos = []        # lista para guardar los modulos
 
