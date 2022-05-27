@@ -10,9 +10,7 @@ Los sistemas numéricos se caracterizan por tener una **estructura algebraica** 
 
 El **sitema binario,** también llamado **sistema diádico** en ciencias de la computación, es un sistema de numeración en el que los números son representados utilizando únicamente dos cifras: 0(cero) y 1 (uno). Es uno de los sistemas que utilizan las computadoras, debido a que estas trabajan internamente con dos niveles de voltaje, por lo cual su sistema de numeración natural es el sistema binario.
 
-### Conversión entre binario y decimal
-
-**Decimal a binario**
+## Cambio de base, de sistema decimal a binario.
 
 Se divide el número del sistema decimal entre **2,** cuyo resultado entero se vuelve a dividir entre 2, y así sucesivamente hasta que el dividendo sea menor que el divisor, 2. Es decir, cuando el número a dividir sea 1 finaliza la división.
 
@@ -42,7 +40,7 @@ Otra forma de conversión consiste en método parecido a la factorización en nu
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/convertir77.png)
 
-## Decimal a Binario en Python
+## Cambio de base en Python
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/binario.png)
 
@@ -52,13 +50,11 @@ Vamos a recordar como hacemos esta operación en papel.
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/paper.png)
 
-### Paso 1. Hacer la división entera del número decimal entre 2.
+### Algoritmo de la división.
 
-Este paso tendremos que repetirlo en **bucle** para obtener el número deseado.
+Antes de empezar escribir código, revisemos el algoritmo de la división y como encontrar sus elemento en python. 
 
-Se trata de dividir el número original entre 2. Además, necesitamos dos número distintos, resultado de esta división: el **cociente** y el **módulo** (también llamado resto o residuo).
-
-Es por esto que necesitamos utilizar la división entera, no sirve la división típica.
+**División entera**
 
 En Pyton3 el símbolo de la división entera es la barra doble //. Si aplicas una sola barra / obtendrás el resultado de la división real y en este caso no es la que ocupamos, ya que necesitamos obtener de manera separada el cociente y el módulo.
 
@@ -74,7 +70,7 @@ Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la conso
 <img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
 </center>
 
-Podemos ocupar el algoritmo de la división para comprobar nuestros resultados. Dado cualquier número b $\in{Z}$ podemos encontrar un par de números $p,q\in{Z}$ que sumado otro número que está entre 0 y p es igual a **b.**
+Dado cualquier número b $\in{Z}$ podemos encontrar un par de números $p,q\in{Z}$ que sumado otro número que está entre 0 y p es igual a **b.**
 
 **Algoritmo de la división**
 
@@ -84,18 +80,29 @@ Y tomando los ejemplos anteriores, comprobamos que:
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/dem.png)
 
-### Paso 2. Guardar el módulo de la división entre 2
+Los ejemplos anteriores, los puedes revisar en el archivo: alg_division.txt de esta misma carpeta.
 
-En el segundo paso tienes que **guardar el módulo obtenido en la división previa**. Como este es un proceso iterativo donde vamos a guardar diversos módulos lo mejor es **crear una lista e ir almacenándolos en ella.**
+### Bucle y Listas en Python
 
-Vamos a crear una lista vacía llamada _modulos_ y añadir al final el módulo _m_ recién calculado con la función _append_ de la siguiente manera: modulos.append(m)
+**Guardar el módulo obtenido en la división previa**. Como este es un proceso iterativo donde vamos a guardar diversos módulos lo mejor es **crear una lista e ir almacenándolos en ella.**
 
-Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos listas y bucles en Python.</a>
+Vamos a crear una lista vacía llamada **modulos** con el método append agregamos cada modulo calculado a la lista modulos, es decir,  modulos.append(modulo)
 
-**Binario a decimal**
+Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos de listas y bucles en Python.</a>
+
+### Escribir el código.
+
+Los procesos **iterativos** se resuelven con el uso de **bucles o ciclos,** para este caso vamos a tomar dos aspectos principales:
+
+1. Cada que realizamos la **división entera**, el **cociente** obtenido pasa a ser el número que ocupamos en la siguiente iteración, para la siguiente iteración.
+2. Detenemos el bucle cuando el **cociente obtenido es igual a 0.** 
+
+
+
+## Convertir de Sistema binario a decimal
 
 1. Comience por el lado izquierdo del número binario. Multiplique cada digito por 2 elevado a la potencia consecutiva (comenzando por la potencia 0, es decir, $2^{0}$).
-2. Después de realizar cada una de las multiplicaciones, súmelas todas y el número resultante será el equivalente al sistema decimal.
+2. Después de realizar cada una de las multiplicaciones, sumamos todas y el número resultante será el equivalente al sistema decimal.
 
 **Ejemplo**
 

@@ -1,20 +1,19 @@
 # =========================================================================
-# Convertir un número en base 10 a base 2.
-# Paso 1. Hacer la división entera del número en base 10 entre 2.
-# Ejemplos de división entera, es decir, solo obtenemos el cociente entero.
+# Algoritmo de la división
+# Para realizar el algoritmo de la división vamos a revisar cuales son sus
+# elementos, primero encontramos el cociente entero:
 10 // 4
 6 // 3
 15 // 2
 
-# Ahora veamos ejemplos del operador % (modulo).
+# Para encontrar el residuo, que llamaremos módulo realizamos:
 10 % 4
 6 % 3
 15 % 2
 
 # Usamos el algoritmo de la división para probar nuestros resultados
+# b = pq + r, 0<=r<q.
 10 == 4 * (10 // 4) + (10 % 4)
 6 == 3 * (6 // 3) + (6 % 3)
 15 == 2 * (15 // 2) + (15 % 2)
-
-
 
