@@ -90,7 +90,7 @@ En el segundo paso tienes que **guardar el módulo obtenido en la división prev
 
 Vamos a crear una lista vacía llamada _modulos_ y añadir al final el módulo _m_ recién calculado con la función _append_ de la siguiente manera: modulos.append(m)
 
-Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos listas y bucles en Python</a>
+Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos listas y bucles en Python.</a>
 
 **Binario a decimal**
 
