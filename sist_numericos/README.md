@@ -86,7 +86,7 @@ Los ejemplos anteriores, los puedes revisar en el archivo: alg_division.txt de e
 
 **Guardar el módulo obtenido en la división previa**. Como este es un proceso iterativo donde vamos a guardar diversos módulos lo mejor es **crear una lista e ir almacenándolos en ella.**
 
-Vamos a crear una lista vacía llamada **modulos** con el método append agregamos cada modulo calculado a la lista modulos, es decir,  modulos.append(modulo)
+Vamos a crear una lista vacía llamada **modulos** con el método append agregamos cada **modulo** calculado a la lista **modulos**, es decir,  modulos.append(modulo)
 
 Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos de listas y bucles en Python.</a>
 
@@ -96,6 +96,24 @@ Los procesos **iterativos** se resuelven con el uso de **bucles o ciclos,** para
 
 1. Cada que realizamos la **división entera**, el **cociente** obtenido pasa a ser el número que ocupamos en la siguiente iteración, para la siguiente iteración.
 2. Detenemos el bucle cuando el **cociente obtenido es igual a 0.** 
+
+![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/modulos.png)
+
+El código de la imagen anterior está guardado en la carpeta ficheros como script con el nombre: modulos.py
+
+**Como ejecutar un script en la terminal**
+
+Debes estar ubicado en el la misma carpeta donde se encuentra tu script
+
+```
+$ python modulos.py
+```
+
+Desde IPython
+
+```
+In [43]: %run modulos.py
+```
 
 
 ***
