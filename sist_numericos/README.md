@@ -18,11 +18,11 @@ A continuación se ordena desde el último cociente hasta el primer resto, simpl
 
 **Ejemplo**
 
-Transformar el número decimal 131 en binario.
+Transformar el número decimal $131_{(10)}$ en binario.
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/convertir131.png)
 
-Ordenamos los residuos, del último al primero: 10000011. En sitema binario, 131 se escribe 10000011.
+Ordenamos los residuos, del último al primero: $10000011_{(2)}$. En sistema binario, $131_{(10)}$ se escribe $10000011_{(2)}$.
 
 **Ejemplo**
 
