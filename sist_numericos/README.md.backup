@@ -70,7 +70,7 @@ Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la conso
 <img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
 </center>
 
-Dado cualquier número $b\in\mathbb{Z}$ podemos encontrar un par de números $p,q\in\mathbb{Z}$ que multiplicado y sumado otro número r tal que $0\l´eq{r}<p$, entonces $b=pq+r$
+Dado cualquier número $b\in\mathbb{Z}$ podemos encontrar un par de números $p,q\in\mathbb{Z}$ que multiplicado y sumado otro número r tal que $0\leq{r}<p$, entonces $b=pq+r$
 
 **Algoritmo de la división**
 
