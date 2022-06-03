@@ -44,7 +44,7 @@ Otra forma de conversión consiste en método parecido a la factorización en nu
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/binario.png)
 
-Una forma sencilla de convertir decimal en binario en Python es dividir sucesivamente el número decimal entre 2 e ir guardando el módulo, resto o residuo de cada división hasta obtener cero en el cociente. Finalmente se concatenan todos los módulos en orden inverso
+Una forma sencilla de convertir decimal en binario en Python es dividir sucesivamente el número decimal entre 2 e ir guardando el módulo, resto o residuo de cada división hasta obtener cero en el cociente. Finalmente se concatenan todos los módulos en orden inverso.
 
 Vamos a recordar como hacemos esta operación en papel.
 
@@ -70,7 +70,7 @@ Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la conso
 <img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
 </center>
 
-Dado cualquier número b $\in\mathbb{Z}$ podemos encontrar un par de números $p,q\in\mathbb{Z}$ que multiplicado y sumado otro número r tal que $0\leqr<p$, entonces $b=pq+r$
+Dado cualquier número $b\in\mathbb{Z}$ podemos encontrar un par de números $p,q\in\mathbb{Z}$ que multiplicado y sumado otro número r tal que $0\leq{r}<p$, entonces $b=pq+r$
 
 **Algoritmo de la división**
 
