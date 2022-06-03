@@ -8,7 +8,7 @@ Los sistemas numéricos se caracterizan por tener una **estructura algebraica** 
 
 # Sistema binario
 
-El **sitema binario,** también llamado **sistema diádico** en ciencias de la computación, es un sistema de numeración en el que los números son representados utilizando únicamente dos cifras: 0(cero) y 1 (uno). Es uno de los sistemas que utilizan las computadoras, debido a que estas trabajan internamente con dos niveles de voltaje, por lo cual su sistema de numeración natural es el sistema binario.
+El **sistema binario,** también llamado **sistema diádico** en ciencias de la computación, es un sistema de numeración en el que los números son representados utilizando únicamente dos cifras: 0 (cero) y 1 (uno). Es uno de los sistemas que utilizan las computadoras, debido a que estas trabajan internamente con dos niveles de voltaje, por lo cual su sistema de numeración natural es el sistema binario.
 
 ## Cambio de base, de sistema decimal a binario.
 
@@ -22,12 +22,11 @@ Transformar el número decimal $131_{(10)}$ en binario.
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/convertir131.png)
 
-Ordenamos los residuos, del último al primero: $10000011_{(2)
-}$. En sistema binario, $131_{(10)}$ se escribe $10000011_{(2)}$.
+Ordenamos los residuos, del último al primero: $10000011_{(2)}$. En sistema binario, $131_{(10)}$ se escribe $10000011_{(2)}$.
 
 **Ejemplo**
 
-Transforma el número 100 en binario.
+Transforma el número $100_{(10)}$ a binario.
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/convertir100.png)
 
@@ -71,7 +70,7 @@ Ahora, para obtener el módulo se ocupa el operador **%**, en este caso la conso
 <img src="https://media.giphy.com/media/7jQsk1jcOSTTaTv7Qt/giphy.gif">
 </center>
 
-Dado cualquier número b $\in{Z}$ podemos encontrar un par de números $p,q\in{Z}$ que sumado otro número que está entre 0 y p es igual a **b.**
+Dado cualquier número b $\in\mathbb{Z}$ podemos encontrar un par de números $p,q\in\mathbb{Z}$ que multiplicado y sumado otro número r tal que $0\leqr<p$, entonces $b=pq+r$
 
 **Algoritmo de la división**
 
@@ -81,13 +80,13 @@ Y tomando los ejemplos anteriores, comprobamos que:
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/dem.png)
 
-Los ejemplos anteriores, los puedes revisar en el archivo: alg_division.txt de esta misma carpeta.
+Los ejemplos anteriores, los puedes revisar en el archivo: alg_division.txt de la carpeta **ficheros**.
 
-### Bucle y Listas en Python
+### Bucle y Listas en Python.
 
 **Guardar el módulo obtenido en la división previa**. Como este es un proceso iterativo donde vamos a guardar diversos módulos lo mejor es **crear una lista e ir almacenándolos en ella.**
 
-Vamos a crear una lista vacía llamada **modulos** con el método append agregamos cada **modulo** calculado a la lista **modulos**, es decir,  modulos.append(modulo)
+Para esto vamos a crear una lista vacía llamada **modulos**, y con el método append() agregamos cada **modulo** calculado a la lista **modulos**, es decir,  modulos.append(modulo)
 
 Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el método append. <a href="https://github.com/gabrielfernando01/basics_in_python/tree/master/basics" target="_PLANK">Ejemplos de listas y bucles en Python.</a>
 
@@ -95,8 +94,8 @@ Antes de seguir avanzando, te invito a que revises ejemplos sobre listas y el m�
 
 Los procesos **iterativos** se resuelven con el uso de **bucles o ciclos,** para este caso vamos a tomar dos aspectos principales:
 
-1. Cada que realizamos la **división entera**, el **cociente** obtenido pasa a ser el número que ocupamos en la siguiente iteración, para la siguiente iteración.
-2. Detenemos el bucle cuando el **cociente obtenido es igual a 0.** 
+1. Cada que realizamos la **división entera**, el **cociente** obtenido pasa a ser el número que ocupamos en la siguiente iteración.
+2. Detenemos el bucle cuando el **cociente obtenido es igual a 0.**  
 
 ![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/modulos.png)
 
@@ -104,16 +103,22 @@ El código de la imagen anterior está guardado en la carpeta ficheros como scri
 
 **Como ejecutar un script en la terminal**
 
-Debes estar ubicado en el la misma carpeta donde se encuentra tu script
+Debes estar ubicado en el la misma carpeta donde se encuentra tu script, ahí escribes el siguiente comando:
 
 ```
 $ python modulos.py
 ```
 
-Desde IPython
+Desde IPython:
 
 ```
 In [43]: %run modulos.py
+```
+
+De esta manera el resultado obtenido es:
+
+```
+[]
 ```
 
 
