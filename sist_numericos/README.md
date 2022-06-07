@@ -42,13 +42,9 @@ Otra forma de conversión consiste en método parecido a la factorización en nu
 
 ## Cambio de base en Python
 
-![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/binario.png)
-
 Una forma sencilla de convertir decimal en binario en Python es dividir sucesivamente el número decimal entre <code>2</code> e ir guardando el módulo, resto o residuo de cada división hasta obtener cero en el cociente. Finalmente se concatenan todos los módulos en orden inverso.
 
-Vamos a recordar como hacemos esta operación en papel.
-
-![](https://raw.githubusercontent.com/GabrielCourses/matematicas_discretas/main/sist_numericos/image/paper.png)
+Es conveniente reconocer cada uno de los elementos o participantes en la conversión de base, recordando el algoritmo de la división.
 
 ### Algoritmo de la división.
 
@@ -121,8 +117,95 @@ De esta manera el resultado obtenido es:
 [1, 0, 1, 1, 1]
 ```
 
+Si hasta ahora has abstraído cada uno de los elementos del proceso del cambio de base, entonces podrás notar que con el siguiente código se puede **optimizar un poco más** de la siguiente manera:
 
+```
+# Comenzamos eligiendo un número en base decimal
+numero_decimal = 29
 
+modulos = []
+
+while numero_decimal != 0:
+    modulos.append(numero_decimal % 2)
+    numero_decimal //= 2
+```
+
+**Invertir los módulos guardados**
+
+Si imprimiéramos el bloque de código anterior sabemos que la lista almaceno los módulos de principio a fin, pero para obtener el número en en base binaria lo necesitamos en sentido inverso.
+
+Una manera es agregar la siguiente línea de código: <code>modulos = modulos[::-1]</code>
+
+Otra manera también mas inmediata de atacar el problema es con el método <code>insert</code> que **permite introducir un elemento en la lista en la posición que eligamos**. Para nuestro caso, queremos almacenar siempre en la primera posición, para que los modulos ya guardados se vayan recorriendo a la derecha.
+
+Veamos como funciona este método:
+
+```
+>>> lista = []
+>>> lista.insert(0,1)
+>>> lista.insert(0,2)
+>>> lista.insert(0,3)
+>>> print(lista)
+[3, 2, 1]
+```
+
+Ahora que ya sabemos como funciona, lo usamos en nuestro código:
+
+```
+# Comenzamos eligiendo un número en base decimal
+numero_decimal = 29
+
+modulos = []
+
+while numero_decimal != 0:
+    modulos.insert(0, numero_decimal % 2)
+    numero_decimal //= 2
+```
+
+**Concatenar los módulos**
+
+Nos damos cuenta que lo que tenemos es una lista de números ya ordenada lo cual nos debe facilitar hacer la conversión. Es decir, una manera es:
+
+- Multiplicar cada digito por 10 elevado a su posición y sumar los resultados. En otras palabras, el número que ocupa las unidades lo elevamos a $10^{0}$, el de las decenas a $10^{1}$, el de las centenas por $10^{2}$ y así sucesivamente para al final sumarlos.
+- Otra manera es convertir los elementos a carácter cada que los vamos almacenando y usar la operación <code>join</code> de la manera <code>''.join(modulos)</code> y al final convertir la concatenación a entero con la función <code>int:int(''.join(modulos))</code>.
+
+Lo haremos de la primera forma, y ocuparemos el mismo bucle para ya no ocupar la lista. Aunque tenemos que declarar un par de variables muy sencillas para hacer las multiplicaciones y sumas.
+
+```
+# Comenzamos eligiendo un número en base decimal
+numero_decimal = 29
+
+numero_binario = 0
+posicion = 1
+
+while numero_decimal != 0:
+    numero_binario = numero_binario + numero_decimal % 2 * posicion
+    numero_decimal //= 2
+    posicion *= 10
+    
+print(numero_binario)
+```
+
+De esta manera hemos convertido $29_{10} = 11101_{2}$. Pero si estamos programando (automatizando) lo que queremos es hacerlo para cualquier número, para esto creamos la función que convierta cualquier numero decimal a binario.
+
+```
+def decimal_a_binario(numero_decimal):
+    numero_binario = 0
+    posicion = 1
+
+    while numero_decimal != 0:
+        numero_binario = numero_binario + numero_decimal % 2 * posicion
+        numero_decimal //= 2
+        posicion *= 10
+
+    return numero_binario
+```
+
+para ejecutar nuestra función:
+
+```
+print(decimal_a_binario(23))
+```
 
 ***
 ## Convertir de Sistema binario a decimal
