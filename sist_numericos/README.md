@@ -54,7 +54,7 @@ Antes de empezar escribir código, revisemos el algoritmo de la división y como
 
 En <code>Pyton3</code> el símbolo de la división entera es la barra doble <code>//</code>. Si aplicas una sola barra <code>/</code> obtendrás el resultado de la división real y en este caso no es la que ocupamos, ya que necesitamos obtener de manera separada el cociente y el módulo.
 
-Veamos unos ejemplo del uso de la división entera, es decir, la consola nos devolvera solamente el cociente entero.
+Veamos unos ejemplo del uso de la división entera, es decir, la consola nos devolverá solamente el cociente entero.
 
 <center>
 <img src="https://media.giphy.com/media/XNQ19v5A5RJCRwM2yN/giphy.gif">
